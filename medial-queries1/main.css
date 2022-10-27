@@ -1,3 +1,29 @@
 body {
+  margin: 0;
+  text-align: center;
+  color: black;
   background: blanchedalmond;
 }
+
+.container{
+  display: flex;
+  min-height: 100vh;
+  margin: 1%;
+  flex-direction: column;
+}
+
+header, footer{
+  flex-grow: 1;
+  margin: 1%;
+  background-color: lightgray;
+  border-radius: 25px;
+}
+
+main{
+  min-height: 60vh;
+  margin: 1%;
+  background-color: lightgray;
+  flex-grow: 5;
+  border-radius: 25px;
+}
+
